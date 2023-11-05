@@ -5,7 +5,7 @@ function displayTime() {
     element.innerHTML = now.toLocaleTimeString(); // Отобразить время
     setTimeout(displayTime, 1000);    // Вызывать функцию каждую секунду
 }
-window.onload = displayTime; // Начать отображение времени после загрузки документа
+window.onload = displayTime; // Начать отображение времени 
 
 
 
